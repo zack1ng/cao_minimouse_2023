@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6c3a5cda-00f0-44bb-a935-8d87543898f3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "SONAR_TRIGGER" (shape input) (at 109.22 88.9 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 09e96789-489a-4469-b77d-1f28a4902c0c)
+  )
+  (hierarchical_label "SONAR_ECHO" (shape output) (at 109.22 91.44 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0e9bbc4f-e703-49b1-8915-42b08419f0ea)
+  )
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "minimouse")(type "KiCad")(uri "${KIPRJMOD}/minimouse.kicad_sym")(options "")(descr ""))
+)
