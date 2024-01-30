@@ -53,7 +53,7 @@
     (thermal_bridge_angle 45) (tstamp ffff3b29-0a3b-415a-920d-b5a610d7fe97))
   (pad "17" smd rect (at 0 0 90) (size 1.75 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 245a0ea0-3db2-4242-be33-d8eeceb3ea18))
-  (model "C:/Users/e1809u/Downloads/VFQFPN16_3X3X1_STM.step"
+  (model "C:/Users/e1809u/Downloads/3D-20240130/VFQFPN16_3X3X1_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
