@@ -379,10 +379,6 @@
     (stroke (width 0) (type default))
     (uuid 38130819-b354-456f-a6c2-63b48249e495)
   )
-  (wire (pts (xy 83.82 85.09) (xy 88.9 85.09))
-    (stroke (width 0) (type default))
-    (uuid 4101ccd4-7dbd-450e-a93f-82cddac7ca33)
-  )
   (wire (pts (xy 152.4 111.76) (xy 149.86 111.76))
     (stroke (width 0) (type default))
     (uuid 47bd1a9c-eed9-49ca-a535-1f8571400bf2)
@@ -463,7 +459,7 @@
     (stroke (width 0) (type default))
     (uuid d0c98165-981a-464e-9279-ef21ee6abccd)
   )
-  (wire (pts (xy 68.58 85.09) (xy 76.2 85.09))
+  (wire (pts (xy 68.58 85.09) (xy 88.9 85.09))
     (stroke (width 0) (type default))
     (uuid d54e493f-6b5a-4071-b416-479ed1f69476)
   )
@@ -549,7 +545,7 @@
   (symbol (lib_id "Device:R") (at 113.03 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17dfdc93-945f-4f4e-8375-001b16915983)
-    (property "Reference" "R13" (at 115.57 113.03 0)
+    (property "Reference" "R12" (at 115.57 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "1k" (at 115.57 115.57 0)
@@ -566,7 +562,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -600,7 +596,7 @@
   (symbol (lib_id "Device:R") (at 22.86 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32525d0d-d983-4051-8de9-b62bc0bfe137)
-    (property "Reference" "R16" (at 25.4 118.11 0)
+    (property "Reference" "R15" (at 25.4 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "10k" (at 25.4 120.65 0)
@@ -617,7 +613,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -717,7 +713,7 @@
   (symbol (lib_id "Device:R") (at 124.46 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63c754a8-afe5-4720-aa51-6a736bc1ef83)
-    (property "Reference" "R14" (at 127 113.03 0)
+    (property "Reference" "R13" (at 127 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "47k" (at 127 115.57 0)
@@ -734,7 +730,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -845,7 +841,7 @@
   (symbol (lib_id "Device:R") (at 22.86 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 977b522f-f512-46da-a10b-105a67544e8f)
-    (property "Reference" "R15" (at 25.4 130.81 0)
+    (property "Reference" "R14" (at 25.4 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "10k" (at 25.4 133.35 0)
@@ -862,7 +858,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -871,10 +867,10 @@
   (symbol (lib_id "Device:R") (at 80.01 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b906346-bd87-4144-9ef3-3572b2ae14bd)
-    (property "Reference" "R10" (at 81.28 96.52 0)
+    (property "Reference" "R9" (at 81.28 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "100" (at 80.01 90.17 90)
+    (property "Value" "10k" (at 80.01 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.01 92.202 90)
@@ -888,7 +884,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -998,7 +994,7 @@
   (symbol (lib_id "Device:R") (at 172.72 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1b4396d-7722-439e-be8c-16a8f983c02b)
-    (property "Reference" "R11" (at 172.72 90.17 90)
+    (property "Reference" "R10" (at 172.72 90.17 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "330m" (at 172.72 92.71 90)
@@ -1015,7 +1011,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1046,36 +1042,10 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 80.01 85.09 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e3011c03-6e1f-4146-b5af-d6c317da0d0e)
-    (property "Reference" "R25" (at 80.01 78.74 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "100" (at 80.01 81.28 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.01 83.312 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 80.01 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 7c01ebe9-1991-4c12-ad50-9eb2c63d018a))
-    (pin "1" (uuid 50d10d44-a849-4e37-a5c1-a83997b78219))
-    (instances
-      (project "minimouse"
-        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R25") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 172.72 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd941b63-5bcf-4bb9-aedb-3335811192bf)
-    (property "Reference" "R12" (at 172.72 77.47 90)
+    (property "Reference" "R11" (at 172.72 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "330m" (at 172.72 80.01 90)
@@ -1092,7 +1062,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R12") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )

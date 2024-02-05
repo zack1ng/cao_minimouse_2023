@@ -325,7 +325,7 @@
   (symbol (lib_id "Device:R") (at 133.35 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 418e67f4-7759-4fcc-a998-65b4fb159f3c)
-    (property "Reference" "R20" (at 133.35 64.77 90)
+    (property "Reference" "R17" (at 133.35 64.77 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 133.35 67.31 90)
@@ -342,7 +342,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/d17bb1c7-f68a-465e-9a17-5858ef86fc30"
-          (reference "R20") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
